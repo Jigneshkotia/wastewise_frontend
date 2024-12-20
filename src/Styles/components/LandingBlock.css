@@ -1,0 +1,94 @@
+
+.back{
+    background-image: url('/images/big_screenBGimg.png');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    height: 50vh; 
+    width: 100%; 
+    position: absolute;
+  }
+
+.landingblockpage{
+  position: relative;
+}
+
+.top{
+  background-color: white;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 70%;
+  height: 34vh;
+  border-radius: 5vh;
+  position: absolute;
+  left: 15%;
+  margin-top: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topleft{
+  width: 44%;
+  border-right: 2px solid black;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 4rem;
+  margin: 2vh;
+  font-weight: 900;
+}
+
+.toplefttextfirstspan{
+  color: rgb(34,139,33);
+}
+
+.toplefttextsecond{
+  color: rgb(34,139,33);
+}
+
+.topright{
+  width: 40%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5vh;
+}
+
+.toplefttextsecondspan{
+  color: black;
+}
+
+.topright{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.toprighttext{
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+
+.toprightbtn{
+  width: 14vw;
+  height: 6vh;
+  border-radius: 2vh;
+  border: none;
+  background-color: rgb(34,139,33);
+  color: white;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.toprightbtn:hover{
+  background-color: rgba(34,139,33, 0.8);
+  color: rgb(223, 223, 223);
+}
+

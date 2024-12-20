@@ -1,0 +1,36 @@
+.cartboxcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cartboxheading{
+    margin-top: 3vh;
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgb(34,139,33);
+}
+
+.cartitemlist{
+    height: 50vh;
+    overflow: scroll;
+}
+
+.pickup-btn{
+    width: 15vw;
+    margin-bottom: 5vh;
+    margin-left: 50vh;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 5vh;
+    border: none;
+    background-color: rgb(34,139,33);
+    color: white;
+    cursor: pointer;
+}
+
+.pickup-btn:hover{
+    background-color: rgba(34,139,33,0.8);
+    color: rgb(239, 239, 239);
+}

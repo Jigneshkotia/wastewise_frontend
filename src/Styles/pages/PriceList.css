@@ -1,0 +1,44 @@
+.pricelistpageheading{
+    text-align: center;
+    font-size: 2.5rem;
+    color:rgb(34,139,33);
+    font-weight: 900;
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+}
+
+.pricelistframe{
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subframeheading{
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.papersubframelist{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* border: 1px solid blue; */
+    width: 100%;
+    padding: 0;
+    margin-bottom: 5vh;
+}
+
+.pricelistsubframe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 85%;
+}
+
+.card{
+    margin-right: 3vw;
+}
