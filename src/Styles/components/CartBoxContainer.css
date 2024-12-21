@@ -34,3 +34,84 @@
     background-color: rgba(34,139,33,0.8);
     color: rgb(239, 239, 239);
 }
+
+.form{
+    height: 65vh;
+}
+
+.formdiv1{
+    display: flex;
+    margin-bottom: 2vh;
+}
+.formdiv2{
+    display: flex;
+    margin-bottom: 2vh;
+}
+.formdiv3{
+    display: flex;
+    margin-bottom: 2vh;
+}
+
+.entrydiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.namediv{
+    width: 20vw;
+    margin-right: 1vw;
+}
+
+.phonediv{
+    width: 22vw;
+}
+
+.addressdiv{
+    width: 28vw;
+    margin-right: 1vw;
+}
+
+.statediv{
+    width: 14vw;
+}
+
+.pincodediv{
+    width: 13vw;
+    margin-right: 1vw;
+}
+
+.emaildiv{
+    width: 29vw;
+}
+
+.datediv{
+    width: 17vw;
+    margin-bottom: 2vh;
+}
+
+.remarkdiv{
+    margin-bottom: 4vh;
+}
+
+input{
+    height: 4vh;
+    border-radius: 1vh;
+    border: 1px solid black;
+    padding: 0.5vh 2vh;
+}
+
+select{
+    height: 5vh;
+    border-radius: 1vh;
+    border: 1px solid black;
+}
+
+label{
+    margin-bottom: 0.5vh;
+}
+
+textarea{
+    height: 8vh;
+    padding: 0.5vh 2vh;
+}
