@@ -42,3 +42,44 @@
 .card{
     margin-right: 3vw;
 }
+
+@media only screen and (max-width: 600px) {
+
+    .pricelistpageheading{
+        text-align: center;
+        font-size: 2rem;
+        color:rgb(34,139,33);
+        font-weight: 900;
+        margin-top: 3vh;
+        /* margin-bottom: 5vh; */
+    }
+
+    .subframeheading{
+        font-size: 1.5rem;
+        font-weight: 900;
+    }
+
+    .papersubframelist{
+        /* display: flex;
+        justify-content: flex-start; */
+        align-items: center;
+        overflow-x:auto;
+        white-space: nowrap;
+        width: 100%;
+        padding: 0;
+        margin-top: 2vh;
+        margin-bottom: 5vh;
+        scroll-snap-type: x mandatory;
+        scroll-behavior: smooth;
+    }
+    .card{
+        margin-right: 3vw;
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 1px;
+        text-decoration: none;
+        flex: 0 0 auto;
+        scroll-snap-align: start;
+    }
+}
