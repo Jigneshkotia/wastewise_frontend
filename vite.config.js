@@ -7,6 +7,7 @@ dotenv.config();
 
 export default defineConfig({
   plugins: [react()],
+  base: "/",
   server: {
     host: true,
   },
