@@ -14,7 +14,7 @@ const LandingBlock = () => {
     <div className="back"></div>
     <div className="top">
       <div className="topleft">
-        <div className="toplefttextfirst">Book a <span className='toplefttextfirstspan'>pickup</span></div>
+        <div className="toplefttextfirst">Book a <span className='toplefttextfirstspan'>Pickup</span></div>
         <div className="toplefttextsecond">Request<span className='toplefttextsecondspan'>.</span></div>
       </div>
       <div className="topright">
