@@ -1,2 +1,1 @@
-hi 1234
-testing...
+Wastewise is an online platform which covers the gaps between the user and the garbage collectors 
