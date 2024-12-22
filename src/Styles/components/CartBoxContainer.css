@@ -115,3 +115,108 @@ textarea{
     height: 8vh;
     padding: 0.5vh 2vh;
 }
+
+@media only screen and (max-width: 600px) {    
+    .cartboxheading{
+        margin-top: 3vh;
+        font-size: 1.5rem;
+        font-weight: 900;
+        color: rgb(34,139,33);
+        text-align: center;
+    }
+    
+    .cartitemlist{
+        margin-top: 10px;
+        margin-left: 20vw auto;
+        height: 88vh;
+        width: 95%;
+        overflow: scroll;
+        border-radius: 6vh;
+        /* box-shadow: 2px 2px 2px  2px black; */
+    }
+    
+    .pickup-btn{
+        width: 40vw; /* Adjusted width for smaller screens */
+        margin-bottom: 10%;
+        font-size: 1.2rem; /* Adjusted font size */
+        margin-left: 36%;
+        padding: 0.5rem;
+        margin-top: 10%;
+        border-radius: 2vh; /* Adjusted border-radius */
+        border: none;
+        background-color: rgb(34,139,33);
+        color: white;
+        cursor: pointer;
+        align-self: center; 
+    }
+    
+    .pickup-btn:hover{
+        background-color: rgba(34,139,33,0.8);
+        color: rgb(239, 239, 239);
+    }
+
+    .form{
+        margin-top: 2vh;
+        margin-left: 8vw;
+        height: 88vh;
+        width: 95%;
+        overflow: scroll;
+        font-size: 0.9rem;
+    }
+    
+    .formdiv1{
+        display: flex;
+        margin-bottom: 2vh;
+        flex-direction: column;
+        width: 90%;
+    }
+    .formdiv2{
+        display: flex;
+        margin-bottom: 2vh;
+        flex-direction: column;
+        width: 90%;
+    }
+    .formdiv3{
+        display: flex;
+        margin-bottom: 2vh;
+        flex-direction: column;
+        width: 90%;
+    }
+    
+    .entrydiv{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
+    .namediv, .phonediv, .addressdiv, .statediv, .pincodediv, .emaildiv, .datediv, .remarkdiv{
+        width: 100%;
+        margin-right: 1vw;
+        margin-top: 1vh;
+        /* overflow: hidden; */
+    }
+    
+    input{
+        height: 3vh;
+        border-radius: 1vh;
+        border: 0.9px solid black;
+        padding: 0.5vh 1vh;
+    }
+    
+    select{
+        height: 5vh;
+        border-radius: 1vh;
+        border: 1px solid black;
+    }
+    
+    label{
+        margin-bottom: 0.5vh;
+    }
+    
+    textarea{
+        height: 8vh;
+        padding: 1vh 1vh;
+        margin-right: 8vw;
+    }
+    
+}

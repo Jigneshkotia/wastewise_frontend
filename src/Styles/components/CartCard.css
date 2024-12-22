@@ -44,3 +44,56 @@
     font-size: 1.5rem;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 600px) {
+    .cartcard {
+        background-color: rgb(233, 233, 233);
+        width: 77%;
+        height: 12%;
+        /* margin: 1rem; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 2vh;
+        overflow: hidden;
+        /* padding: 1vh; */
+    }
+    
+    .cart-card-image {
+        width: 10vw;
+        height: 6vh; /* Match the height of the cartcard */
+        margin-left: 0vw;
+        /* border-radius: 2vh; */
+        /* object-fit: cover;  */
+        /* max-height: 100%; /* Ensures it doesn't exceed the parent's height */
+        /* max-width: 100%; /* Ensures it doesn't exceed the parent's width */ 
+    }
+    
+    .cart-card-content {
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        padding: 0vw 17vw 0vw 2vw;
+        width: 15vw;
+    }
+
+    .cart-card-price {
+        margin-top: 1vh;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        font-size: 0.7rem;
+    }
+    
+    .cart-card-name {
+        font-size: 1rem;
+        margin-top: 0;
+        padding-top: 0;
+    }
+    
+    .delete-from-cart {
+        margin-right: 0vh;
+        font-size: 1rem;
+        cursor: pointer;
+        align-self: center;
+    }
+    
+}

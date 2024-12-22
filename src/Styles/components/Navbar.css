@@ -143,3 +143,36 @@
         margin-top: 3vh;
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .cartbox {
+        position: fixed;
+        z-index: 100;
+        left: 10%;
+        top: 10%;
+        display: flex;
+        width: 80vw; /* Adjusted to fit screen */
+        height: 77vh; /* Adjusted to fit screen */
+    }
+    
+    .cartboxcontainer {
+        height: 100%;
+        width: 100%;
+        background-color: white;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border: 5px dimgray; 
+        border-radius: 4vh;
+        overflow: hidden;
+        padding: 0.4rem;
+        position: relative; 
+    }
+    
+    .cartboxclose {
+        cursor: pointer;
+        font-size: 1.5rem;
+        position: absolute; /* Position it absolutely within the cartboxcontainer */
+        right: 2rem; 
+        top: 0rem;
+    }
+
+}
