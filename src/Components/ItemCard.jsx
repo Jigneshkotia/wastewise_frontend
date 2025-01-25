@@ -30,7 +30,7 @@ const ItemCard = ({ image, name, price }) => {
     <div className="card">
       <img src={image} alt={name} className="card-image" />
       <div className="card-content">
-        <p className="card-price">Rs {price}/kg</p>
+        <p className="card-price">{price}</p>
         <h2 className="card-name">{name}</h2>
         <button className={`card-btn ${added ? 'added' : ''}`} onClick={addToCartHandler} >{added ? "Remove" : "Add to Cart"}</button>
       </div>

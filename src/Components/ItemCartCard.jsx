@@ -20,7 +20,7 @@ const ItemCartCard = ({ image, name, price }) => {
     <div className="cartcard">
       <img src={image} alt={name} className="cart-card-image" />
       <div className="cart-card-content">
-        <p className="cart-card-price">Rs {price}/kg</p>
+        <p className="cart-card-price">{price}</p>
         <h2 className="cart-card-name">{name}</h2>
       </div>
       <div className="delete-from-cart" onClick={removeFromCartHandler}>❌</div>

@@ -1,0 +1,45 @@
+.contactbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contactboxheading{
+    font-size: 2.5em;
+    font-weight: 900;
+}
+
+.contactboxsubheading{
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.subBox{
+    display: flex;
+    justify-content: flex-start;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.subBoxLeft{
+    margin: 2px;
+    background-color: gray;
+    border-radius: 5px;
+    font-size: 2rem;
+    padding: 2px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subBoxRight{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+}

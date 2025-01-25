@@ -46,10 +46,10 @@ const CartBoxContainer = () => {
 
     emailjs
       .send(
-        import.meta.env.VITE_SERVICE_ID, 
-        import.meta.env.VITE_TEMPLATE_ID, 
+        "wastewise@serviceidemail", 
+        "wastewise@templateid",
         emailData, 
-        import.meta.env.VITE_USER_ID
+        "YVuK8o3RGXXFPJHk3"
       )
       .then((response) => {
         console.log("Email sent successfully:", response);
