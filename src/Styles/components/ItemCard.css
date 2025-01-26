@@ -1,3 +1,4 @@
+
 .card {
   border: 1px solid #ddd;
   border-radius: 8px;
@@ -47,87 +48,115 @@
   border: none;
   border-radius: 5vh;
   height: 5vh;
-  width: 80%;
-  font-size: 1.1rem;
+  width: 60%;
+  font-size: 1rem;
   cursor: pointer;
 }
 
-.card-btn.added{
+.card-btn.added {
   background-color: red;
   color: white;
 }
 
-.card-btn.added:hover{
+.card-btn.added:hover {
   background-color: rgba(255, 0, 0, 0.736);
-} 
+}
 
 .card-btn:hover {
   background-color: rgba(34, 139, 33, 0.7);
 }
 
+/* Quantity Meter */
+.card-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.quantity-meter {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.decrement-btn,
+.increment-btn {
+  width: 30px;
+  height: 30px;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  background-color: #f5f5f5;
+}
+
+.decrement-btn:hover,
+.increment-btn:hover {
+  background-color: #eaeaea;
+}
+
+.quantity {
+  font-size: 16px;
+  padding: 0 5px;
+}
+
+/* Media Query for Small Screens */
 @media only screen and (max-width: 600px) {
   .card {
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    width: 47%;
-    height: 30%;
-    margin: 1px;
-    text-align: center;
-    transition: transform 0.2s ease-in-out;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 1px 0px;
+    width: 55%; 
+    height: auto;
+    margin: 10px 0;
+    padding: 10px;
   }
 
   .card-image {
-    margin-top: 10px;
-    width: 85%;
-    height: 150px; /* Explicit height to limit distortion */
-    object-fit: cover; /* Ensures the image fills the area without breaking aspect ratio */
+    width: 90%;
+    height: 140px; 
     border-radius: 0.6rem;
+    margin-top: 8px;
   }
 
-  card-content {
-    padding: 16px;
-    width: 80%;
+  .card-content {
+    padding: 10px;
+    width: 90%;
   }
-  
+
   .card-name {
-    font-size: 1rem;
-    margin: 8px 0;
-    color: #333;
+    font-size: 1.2rem;
+    margin: 5px 0;
   }
-  
+
   .card-price {
-    font-size: 0.9rem;
-    color: #777;
+    font-size: 1rem;
   }
 
   .card-btn {
-    background-color: rgb(34, 139, 33);
-    color: white;
-    border: none;
-    border-radius: 5vh;
-    height: 5vh;
-    width: 80%;
-    font-size: 0.8rem;
-    cursor: pointer;
-  }
-  
-  .card-btn.added{
-    background-color: red;
-    color: white;
-  }
-  
-  .card-btn.added:hover{
-    background-color: rgba(255, 0, 0, 0.736);
-  } 
-  
-  .card-btn:hover {
-    background-color: rgba(34, 139, 33, 0.7);
+    font-size: 0.9rem;
+    height: 40px;
+    width: 70%;
   }
 
+  .card-controls {
+    flex-direction: column; /* Stack controls vertically for smaller screens */
+    gap: 5px;
+  }
+
+  .quantity-meter {
+    gap: 5px;
+  }
+
+  .decrement-btn,
+  .increment-btn {
+    width: 25px;
+    height: 25px;
+    font-size: 14px;
+  }
+
+  .quantity {
+    font-size: 14px;
+    color: black;
+  }
 }
+
