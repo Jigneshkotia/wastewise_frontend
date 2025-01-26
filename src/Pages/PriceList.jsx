@@ -21,10 +21,10 @@ const PriceList = () => {
             <div className="pricelistsubframe" id='metalsframe'>
             <div className="subframeheading">Metal</div>
                 <div className="papersubframelist" id='metalsubframelistfirst'>
-                    <ItemCard className="card" image="https://images.unsplash.com/photo-1536842409491-b3bbde0e3b66?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" name="Iron" price="Rs 27/kg"/>
-                    <ItemCard className="card" image="https://images.unsplash.com/photo-1633504785850-018cae02cb47?q=80&w=2831&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" name="Stainless Steel" price="Rs 40/kg"/>
-                    <ItemCard className="card" image="https://images.unsplash.com/photo-1605780084250-d83bd844dfb5?q=80&w=2803&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" name="Aluminium" price="Rs 108/kg"/>
-                    <ItemCard className="card" image="https://images.unsplash.com/photo-1516134394958-6b824e9566f5?q=80&w=2835&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" name="Copper" price="Rs 430/kg"/>
+                    <ItemCard className="card" image="https://images.unsplash.com/photo-1536842409491-b3bbde0e3b66?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" name="Iron" price="Rs 30-50/kg"/>
+                    <ItemCard className="card" image="https://images.unsplash.com/photo-1633504785850-018cae02cb47?q=80&w=2831&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" name="Stainless Steel" price="Rs 50-70/kg"/>
+                    <ItemCard className="card" image="https://images.unsplash.com/photo-1605780084250-d83bd844dfb5?q=80&w=2803&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" name="Aluminium" price="Rs 70-90/kg"/>
+                    <ItemCard className="card" image="https://images.unsplash.com/photo-1516134394958-6b824e9566f5?q=80&w=2835&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" name="Copper" price="Rs 600-650/kg"/>
                 </div>
             </div>
             <div className="pricelistsubframe" id='plasticframe'>
