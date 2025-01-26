@@ -37,7 +37,7 @@
 }
   
 .navright-list-element.active {
-    color: rgb(34,139,33);
+    color: rgb(0 119 182);
     font-weight: bold;
 }
 
@@ -111,7 +111,7 @@
     }
       
     .navright-list-element.active {
-        color: rgb(34,139,33);
+        color: rgb(0 119 182);
         font-weight: bold;
     }
     

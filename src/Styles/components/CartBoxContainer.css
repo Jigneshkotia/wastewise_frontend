@@ -9,7 +9,7 @@
     margin-top: 3vh;
     font-size: 3rem;
     font-weight: 900;
-    color: rgb(34,139,33);
+    color: #0077b6;
 }
 
 .cartitemlist{
@@ -25,13 +25,13 @@
     padding: 0.5rem;
     border-radius: 5vh;
     border: none;
-    background-color: rgb(34,139,33);
+    background-color: #0077b6;
     color: white;
     cursor: pointer;
 }
 
 .pickup-btn:hover{
-    background-color: rgba(34,139,33,0.8);
+    background-color: rgba(0 119 182 0.8);
     color: rgb(239, 239, 239);
 }
 
@@ -121,7 +121,7 @@ textarea{
         margin-top: 3vh;
         font-size: 1.5rem;
         font-weight: 900;
-        color: rgb(34,139,33);
+        color: rgb(0 119 182);
         text-align: center;
     }
     
@@ -144,14 +144,14 @@ textarea{
         margin-top: 10%;
         border-radius: 2vh; /* Adjusted border-radius */
         border: none;
-        background-color: rgb(34,139,33);
+        background-color: rgb(0 119 182);
         color: white;
         cursor: pointer;
         align-self: center; 
     }
     
     .pickup-btn:hover{
-        background-color: rgba(34,139,33,0.8);
+        background-color: rgba(0 119 182 0.8);
         color: rgb(239, 239, 239);
     }
 

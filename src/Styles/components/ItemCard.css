@@ -43,7 +43,7 @@
 }
 
 .card-btn {
-  background-color: rgb(34, 139, 33);
+  background-color: rgb(0 119 182);
   color: white;
   border: none;
   border-radius: 5vh;
@@ -63,7 +63,7 @@
 }
 
 .card-btn:hover {
-  background-color: rgba(34, 139, 33, 0.7);
+  background-color: rgba(0 119 182 0.8);
 }
 
 /* Quantity Meter */
