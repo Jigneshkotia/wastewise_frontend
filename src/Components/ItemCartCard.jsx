@@ -22,7 +22,7 @@ const ItemCartCard = ({ image, name, price, size }) => {
       <div className="cart-card-content">
         <p className="cart-card-price">{price}</p>
         <h2 className="cart-card-name">{name}</h2>
-        <h4 >Quantity : {size}</h4>
+        <h4 >Quantity : {size} Kg</h4>
       </div>
       <div className="delete-from-cart" onClick={removeFromCartHandler}>❌</div>
     </div>
