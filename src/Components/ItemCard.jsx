@@ -24,14 +24,16 @@ const ItemCard = ({ image, name, price }) => {
       dispatch(removeFromCart({
         image : image,
         name : name,
-        price : price
+        price : price,
+        size : quantity
       }))
     }else{
       setAdded(!added)
       dispatch(addToCart({
         image : image ,
         name : name,
-        price : price
+        price : price,
+        size : quantity
       }))
     }
   }

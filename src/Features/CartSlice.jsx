@@ -14,7 +14,8 @@ const CartSlice = createSlice({
             state.value = state.value.filter(item => 
                 item.image !== action.payload.image &&
                 item.name !== action.payload.name &&
-                item.price !== action.payload.price
+                item.price !== action.payload.price &&
+                item.size !== action.payload.size
                 );
         }
     }

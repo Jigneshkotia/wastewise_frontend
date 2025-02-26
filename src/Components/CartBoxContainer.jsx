@@ -41,7 +41,7 @@ const CartBoxContainer = () => {
     // Include a recipient's email address
     const emailData = {
       ...formData,
-      garbageTypes: itemArray.map((item) => item.name).join(", "),
+      garbageTypes: itemArray.map((item) => `${item.name} : (quantity: ${item.size})`).join(", ")
     };
 
     emailjs
@@ -234,6 +234,7 @@ const CartBoxContainer = () => {
                 image={item.image}
                 name={item.name}
                 price={item.price}
+                size = {item.size}
               />
             ))}
           </div>

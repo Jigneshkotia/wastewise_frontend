@@ -4,7 +4,7 @@ import "../Styles/components/CartCard.css"
 import { useDispatch } from 'react-redux';
 import { removeFromCart } from '../Features/CartSlice';
 
-const ItemCartCard = ({ image, name, price }) => {
+const ItemCartCard = ({ image, name, price, size }) => {
 
   const dispatch = useDispatch();
 
@@ -22,6 +22,7 @@ const ItemCartCard = ({ image, name, price }) => {
       <div className="cart-card-content">
         <p className="cart-card-price">{price}</p>
         <h2 className="cart-card-name">{name}</h2>
+        <h4 >Quantity : {size}</h4>
       </div>
       <div className="delete-from-cart" onClick={removeFromCartHandler}>❌</div>
     </div>
